@@ -22,7 +22,6 @@ Datast link:[helmet](https://drive.google.com/file/d/1-9lFSOfk1lGW2pNi3rZpueEAw9
 train: ./dataset/images/train/
 
 val: ./dataset/images/valid/
-```
 
 
 # number of classes
@@ -34,6 +33,7 @@ nc: 2
 # class names
 
 names: ['head', 'helmet']
+```
 
 # Inference
  run the following command
@@ -44,4 +44,4 @@ names: ['head', 'helmet']
 
 
 
-```
+
