@@ -9,7 +9,8 @@
 # Dataset
 Database in YOLO format with labels: 'helmet' as 1, and 'head as 0.
 Split approximately train/valid/test 0.7/0.2/0.1
-Datast link:[helmet](https://drive.google.com/file/d/1-9lFSOfk1lGW2pNi3rZpueEAw92StTrg/view?usp=sharing)
+
+Datast link:[Helmet](https://drive.google.com/file/d/1-9lFSOfk1lGW2pNi3rZpueEAw92StTrg/view?usp=sharing)
 
 # Train
 
@@ -41,6 +42,7 @@ names: ['head', 'helmet']
 ```
 !python inference.py --weights runs/train/exp10/weights/best.pt --img 640 --conf 0.4 --source inputs/helm_000197.jpg
 ```
+
 
 
 
